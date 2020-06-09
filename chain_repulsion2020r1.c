@@ -468,7 +468,7 @@ int update(int n) {
   // from here 0608
   for( i=0; i<NUM; i++) {
     if( i != n ) {
-      if( distance[i][n] < Td2 ) {
+      if( dist[i][n] < Td2 ) {
         V_r2.x -= datoid[i].r.x;
         V_r2.y -= datoid[i].r.y;
         Vcount++;
